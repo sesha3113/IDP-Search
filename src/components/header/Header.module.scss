@@ -1,0 +1,313 @@
+@import "../../assets/styles/mixins";
+@import "../../assets/styles/colours.scss";
+
+// .headerWidth {
+// 	width: 100%;
+// 	.header {
+// 		height: 170px;
+// 		.headerRow {
+// 			text-align: center;
+// 			--bs-gutter-x: 0px !important;
+// 			padding-top: 20px;
+// 			.headerLogo {
+// 				float: left;
+// 				padding-top: 10px;
+// 				padding-left: 15px;
+// 			}
+// 			.headerSearch {
+// 				padding-top: 30px;
+// 				.searchTag {
+// 					color: $color_2;
+// 					background-color: $background-color_4;
+// 					border-top: none;
+// 					border-left: none;
+// 					border-right: none;
+// 					outline: 0 !important;
+// 					display: block;
+// 					min-width: 65%;
+// 					padding: 10px;
+// 					font-size: 14px;
+// 					font-weight: 400;
+// 					appearance: none;
+// 					border-bottom: 1px solid gray;
+// 					border-radius: 5px;
+// 				}
+// 				.searchBtnIcon {
+// 					position: absolute;
+// 					top: 13px;
+// 					left: 10px;
+// 				}
+// 			}
+// 			.headerLinks {
+// 				padding-top: 30px;
+// 				padding-right: 0;
+// 				.interaction {
+// 					display: flex;
+// 					justify-content: space-around;
+// 					padding: 10px;
+// 					list-style-type: none;
+// 					.interactionLinks {
+// 						padding-top: 10px;
+// 						font-size: 16px;
+// 						position: relative;
+// 						cursor: pointer;
+// 					}
+// 					.buttonHeader {
+// 						height: 50px;
+// 						width: 190px;
+// 						font-size: 16px;
+// 						padding: 10px 20px;
+// 						border-radius: 25px;
+// 						background-color: $background-color_2;
+// 						color: $color_2;
+// 						border: 2px solid gray;
+// 					}
+// 					.buttonHeaderHover {
+// 						&:hover {
+// 							height: 50px;
+// 							width: 190px;
+// 							font-size: 16px;
+// 							padding: 10px 20px;
+// 							background-color: $background-color_3;
+// 							color: $color_1;
+// 						}
+// 					}
+// 					.signupOptionsHeader {
+// 						color: $color_3;
+// 						font-size: 16px;
+// 					}
+// 					.signupOptions {
+// 						color: $color_3;
+// 						font-size: 16px;
+// 					}
+// 					.signupOptionsHover {
+// 						&:hover {
+// 							color: $color_4;
+// 						}
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.linksHeader {
+// 		text-align: center;
+// 		width: 100%;
+// 		display: grid;
+// 		place-items: center;
+// 		position: absolute;
+// 		z-index: 2;
+// 		.linksLi {
+// 			list-style-type: none;
+// 			padding: 14px 20px 15px 17px !important;
+// 			height: 65px;
+// 			transition: .4s;
+// 			border-radius: 30px;
+// 			font-size: 15px;
+// 			width: 165px;
+// 			text-align: center;
+// 			color: $color_1;
+// 		}
+// 		.linksListLi {
+// 			&:hover {
+// 				list-style-type: none;
+// 				padding: 14px 20px 15px 17px !important;
+// 				height: 65px;
+// 				transition: .4s;
+// 				border-radius: 30px;
+// 				font-size: 15px;
+// 				width: 165px;
+// 				text-align: center;
+// 				color: $color_1;
+// 				background-color: $background-color_1;
+// 			}
+// 		}
+// 	}
+// }
+
+
+
+
+
+
+
+
+.interactionLinks {
+	padding-top: 10px;
+	font-size: 16px;
+	position: relative;
+	cursor: pointer;
+}
+.interaction {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	list-style-type: none;
+}
+.linksHeader {
+	text-align: center;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	position: absolute;
+	z-index: 2;
+}
+.linksLi {
+	list-style-type: none;
+	padding: 14px 20px 15px 17px !important;
+	height: 65px;
+	transition: .4s;
+	border-radius: 30px;
+	font-size: 15px;
+	width: 165px;
+	text-align: center;
+	color: $white_color;
+}
+.linksListLi {
+	&:hover {
+		list-style-type: none;
+		padding: 14px 20px 15px 17px !important;
+		height: 65px;
+		transition: .4s;
+		border-radius: 30px;
+		font-size: 15px;
+		width: 165px;
+		text-align: center;
+		color: $white_color;
+		background-color: $light_blue_5;
+	}
+}
+.headerRow {
+	text-align: center;
+	--bs-gutter-x: 0px !important;
+	padding-top: 20px;
+}
+.headerLogo {
+	float: left;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.headerLinks {
+	padding-top: 30px;
+	padding-right: 0;
+}
+.headerSearch {
+	padding-top: 30px;
+}
+.header {
+	height: 170px;
+}
+.buttonHeader {
+	height: 50px;
+	width: 190px;
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: $white_color;
+	color: $balck_color;
+	border: 2px solid gray;
+}
+.buttonHeaderHover {
+	&:hover {
+		height: 50px;
+		width: 190px;
+		font-size: 16px;
+		padding: 10px 20px;
+		background-color: $gray;
+		color: $white_color;
+	}
+}
+.searchTag {
+	color: $balck_color;
+	background-color: $color_white2;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	outline: 0 !important;
+	display: block;
+	min-width: 65%;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	appearance: none;
+	border-bottom: 1px solid gray;
+	border-radius: 5px;
+}
+.headerWidth {
+	width: 100%;
+}
+.searchBtnIcon {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+}
+.signupOptions {
+	color: $gray;
+	font-size: 16px;
+}
+// .signupOptionsHeader {
+// 	color: $gray;
+// 	font-size: 16px;
+// }
+.signupOptionsHover {
+	&:hover {
+		color: $light_blue_4;
+	}
+}
+@include sm {
+	.headerWidth {
+		height: auto;
+	}
+	.searchTag {
+		width: 98%;
+		margin: 0 auto;
+	}
+	.headerLinks {
+		padding-bottom: 20px;
+		padding-top: 0;
+	}
+	.linksLi {
+		height: 65px;
+		font-size: 15px;
+		width: 100%;
+	}
+	.interactionLinksIconC {
+		height: 50px;
+		width: 100px;
+	}
+	.interactionLinksIconS {
+		height: 50px;
+		width: 50px;
+	}
+	.headerSearch {
+		padding-top: 14px;
+	}
+}
+@include md {
+	.headerWidth {
+		height: auto;
+	}
+	.headerLinks {
+		padding-bottom: 20px;
+		padding-top: 0;
+	}
+	.linksLi {
+		width: 100%;
+	}
+}
+@include lg {
+	.headerWidth {
+		height: auto;
+	}
+	.headerLinks {
+		padding-bottom: 20px;
+		padding-top: 0;
+	}
+	.linksLi {
+		width: auto;
+	}
+}
+@include xl {
+	.header {
+		height: auto;
+	}
+}

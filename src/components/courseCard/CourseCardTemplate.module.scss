@@ -1,0 +1,468 @@
+@import "../../assets/styles/colours.scss";
+@import "../../assets/styles/mixins";
+
+.searchCardImgContainer {
+	height: 230px;
+	.imageTinted {
+		height: 230px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		background-image: linear-gradient(hsla(0,0%,0%,0),hsla(0,0%,0%,.00709) 10.47%,hsla(0,0%,0%,.02755) 19.56%,hsla(0,0%,0%,.06016) 27.58%,hsla(0,0%,0%,.1037) 34.81%,hsla(0,0%,0%,.15697) 41.57%,hsla(0,0%,0%,.21875) 48.13%,hsla(0,0%,0%,.28782) 54.79%,hsla(0,0%,0%,.36296) 61.85%,hsla(0,0%,0%,.44297) 69.61%,hsla(0,0%,0%,.52662) 78.36%,hsla(0,0%,0%,.6127) 88.39%,hsla(0,0%,0%,.7));
+		background-size: cover;
+		width: 100%;
+	}
+	.searchCardTitle {
+		bottom: 10%;
+		left: 5%;
+		color: $white_color;
+		font-size: 20px;
+	}
+}
+.courseDetail {
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -3px;
+		height: 4px;
+		width: 25%;
+		background: linear-gradient(90deg,#388062 0,#73b757 100%) no-repeat padding-box;
+		border-radius: 4px;
+	}
+	.universityName {
+		color: $light_gray_4;
+		font-size: 15px;
+		text-decoration: underline;
+		font-weight: 400;
+		display: inline-block;
+		position: relative;
+		z-index: 990;
+	}
+	.universityLocation {
+		color: $light_gray_4;
+		font-size: 13px;
+		margin-top: 3px;
+		font-weight: 400;
+	}
+	.universityRank {
+		color: $light_gray_4;
+		font-size: 13px;
+		margin-top: 3px;
+		font-weight: 400;
+	}
+}
+.qualification {
+	margin-left: 8px;
+	.qualification {
+		margin-left: 8px;
+	}
+	.qualificationTitle {
+		color: $light_gray_4;
+		font-size: 16px;
+		line-height: 23px;
+		font-weight: 700;
+	}
+	.qualificationDegree {
+		color: $green_color;
+		font-size: 16px !important;
+		line-height: 23px;
+		font-weight: 700;
+		margin-right: 8px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .imageTinted {
+// 	height: 230px;
+// 	position: absolute;
+// 	bottom: 0;
+// 	right: 0;
+// 	left: 0;
+// 	background-image: linear-gradient(hsla(0,0%,0%,0),hsla(0,0%,0%,.00709) 10.47%,hsla(0,0%,0%,.02755) 19.56%,hsla(0,0%,0%,.06016) 27.58%,hsla(0,0%,0%,.1037) 34.81%,hsla(0,0%,0%,.15697) 41.57%,hsla(0,0%,0%,.21875) 48.13%,hsla(0,0%,0%,.28782) 54.79%,hsla(0,0%,0%,.36296) 61.85%,hsla(0,0%,0%,.44297) 69.61%,hsla(0,0%,0%,.52662) 78.36%,hsla(0,0%,0%,.6127) 88.39%,hsla(0,0%,0%,.7));
+// 	background-size: cover;
+// 	width: 100%;
+// }
+// .searchCardImgContainer {
+// 	height: 230px;
+// }
+// .searchFormParent {
+// 	box-shadow: 0 0 6px 2px rgb(0 0 0 / 23%);
+// 	border-bottom: 3px;
+// 	transition: .3s;
+// 	text-align: left;
+// 	padding: 1rem;
+// }
+// .searchHeader {
+// 	box-shadow: 0 0 6px 2px rgb(0 0 0 / 23%);
+// 	border-top: 3px;
+// 	background-color: $background-color_2;
+// 	padding: 20px 20px 5px;
+// 	color: $color_2;
+// 	margin-top: 10px;
+// }
+// .filterOptionRow {
+// 	--bs-gutter-x: 0px !important;
+// }
+// .filterRow {
+// 	--bs-gutter-x: 0px !important;
+// 	padding: 20px 20px 10px;
+// 	border-bottom: 2px solid #e4e4e4;
+// }
+// .filterRowfFooter {
+// 	--bs-gutter-x: 0px !important;
+// 	border-top: 2px solid #e4e4e4;
+// 	padding: 20px;
+// }
+// .courseName {
+// 	font-family: $font-family_1;
+// 	font-weight: 400;
+// 	color: $color_1;
+// 	font-size: 45px;
+// 	letter-spacing: -.025em;
+// 	padding: 0;
+// 	margin-bottom: 2px;
+// 	line-height: 1.154;
+// }
+// .searchCardTitle {
+// 	bottom: 10%;
+// 	left: 5%;
+// 	color: $white_color;
+// 	font-size: 20px;
+// }
+// .universityName {
+// 	color: $light_gray_4;
+// 	font-size: 15px;
+// 	text-decoration: underline;
+// 	font-weight: 400;
+// 	display: inline-block;
+// 	position: relative;
+// 	z-index: 990;
+// }
+// .universityLocation {
+// 	color: $light_gray_4;
+// 	font-size: 13px;
+// 	margin-top: 3px;
+// 	font-weight: 400;
+// }
+// .universityRank {
+// 	color: $light_gray_4;
+// 	font-size: 13px;
+// 	margin-top: 3px;
+// 	font-weight: 400;
+// }
+// .courseDetail {
+// 	&::after {
+// 		content: "";
+// 		position: absolute;
+// 		left: 0;
+// 		bottom: -3px;
+// 		height: 4px;
+// 		width: 25%;
+// 		background: linear-gradient(90deg,#388062 0,#73b757 100%) no-repeat padding-box;
+// 		border-radius: 4px;
+// 	}
+// }
+// .qualification {
+// 	margin-left: 8px;
+// }
+// .qualificationTitle {
+// 	color: $light_gray_4;
+// 	font-size: 16px;
+// 	line-height: 23px;
+// 	font-weight: 700;
+// }
+// .qualificationDegree {
+// 	color: $green_color;
+// 	font-size: 16px !important;
+// 	line-height: 23px;
+// 	font-weight: 700;
+// 	margin-right: 8px;
+// }
+.container {
+	>span {
+		color: $light_black_1;
+		font-weight: 400;
+		font-size: 16px;
+	}
+	&:hover {
+		input~.checkmark {
+			background-color: $white_color;
+		}
+	}
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	input {
+		&:checked~.checkmark {
+			&:after {
+				display: block;
+			}
+			background-color: $thick_green;
+		}
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+		background-color: $bg_color_white1;
+	}
+	.checkmark {
+		&:after {
+			left: 5px;
+			top: 1px;
+			width: 5px;
+			height: 10px;
+			border: solid #fff;
+			border-width: 0 3px 3px 0;
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+	}
+}
+// .resultCount {
+// 	color: $color_5;
+// 	font-weight: 400;
+// 	opacity: .9;
+// 	margin-top: 20px;
+// 	letter-spacing: -.025em;
+// 	margin-bottom: 5px;
+// 	line-height: 30px;
+// 	font-size: 24px;
+// }
+// .searchContainerFull {
+// 	width: 1170px;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// }
+// .searchSort {
+// 	width: 270px;
+// }
+// .action-items {
+// 	margin-right: 1rem;
+// }
+.btn.filterBtn {
+	background-color: $white_color;
+	color: $balck_color;
+	border-color: $bg_color_white2;
+	&:active {
+		background-color: $white_color;
+		color: $balck_color;
+		border-color: $bg_color_white2;
+	}
+	&:hover {
+		background-color: $white_color;
+		color: $balck_color;
+		border-color: $bg_color_white2;
+	}
+}
+// .searchHeaderTitle {
+// 	font-size: 24px;
+// 	font-weight: 400;
+// 	margin-bottom: 10px;
+// 	line-height: 26px;
+// }
+// .searchHeaderDesc {
+// 	font-size: 18px;
+// 	margin-bottom: 10px;
+// 	line-height: 1.4;
+// 	color: $color_2;
+// }
+// .headerBannerImg {
+// 	width: 100px;
+// 	margin: 0 5px -7px;
+// 	position: relative;
+// 	z-index: 1;
+// }
+// .searchBanner {
+// 	display: flex;
+// 	width: 100%;
+// 	align-items: center;
+// 	border-radius: 15px;
+// 	position: relative;
+// 	padding: 10px 14px 8px 6px;
+// 	background: #0086f8;
+// 	box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+// 	color: $color_2;
+// }
+// .filtersPannelFallback {
+// 	z-index: 999 !important;
+// 	position: absolute;
+// 	overflow-y: hidden;
+// 	right: 0;
+// 	width: 100%;
+// 	background-color: $background-color_3;
+// 	backdrop-filter: blur(5px);
+// 	transition: .6s;
+// 	height: 100vh;
+// 	display: grid;
+// 	place-items: center;
+// }
+// .filtersPannelMain {
+// 	z-index: 999 !important;
+// 	position: absolute;
+// 	overflow-y: hidden;
+// 	right: 0;
+// 	width: 100%;
+// 	background-color: $background-color_3;
+// 	backdrop-filter: blur(5px);
+// 	transition: .6s;
+// 	height: 100vh;
+// }
+// .searchHeaderText {
+// 	font-size: 20px;
+// }
+// .searchBannerText {
+// 	display: flex;
+// 	width: 100%;
+// 	align-items: center;
+// 	min-height: 82px;
+// 	border: none;
+// }
+.checkmark {
+	background-color: $white_color;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	margin-top: 10px;
+	border: .5px solid gray;
+	&:after {
+		content: "";
+		position: absolute;
+		display: none;
+	}
+}
+// .filterButton {
+// 	background-color: $background-color_1;
+// 	border: none;
+// 	color: $color_10;
+// }
+// .filterPannelFilters {
+// 	background-color: $background-color_1;
+// 	width: 55%;
+// 	height: 100vh;
+// 	float: right;
+// }
+// .filterHeader {
+// 	font-size: 32px;
+// 	color: $color_7;
+// }
+// .filterStart {
+// 	text-align: end;
+// 	font-size: 16px;
+// 	font-weight: 500;
+// 	color: $color_8;
+// 	padding-top: 10px;
+// }
+// .filterSubject {
+// 	padding-bottom: 15px;
+// }
+// .filterTitle {
+// 	padding-bottom: 15px;
+// }
+// .selectCourse {
+// 	width: 95%;
+// 	color: $color_1;
+// 	font-size: 16px;
+// 	padding: 7px 7px 7px 10px;
+// 	margin-top: 0;
+// 	outline-color: $outline-color_1;
+// 	border-radius: 5px;
+// }
+// .filterCheckbox {
+// 	color: $color_1;
+// 	height: 15px;
+// 	width: 15px;
+// 	&::before {
+// 		color: $color_1;
+// 		background-color: $background-color_4;
+// 	}
+// }
+// .BrownColor {
+// 	color: $color_9;
+// }
+// .showCitiesBtn {
+// 	color: $color_1;
+// 	cursor: pointer;
+// }
+// .matchedResults {
+// 	color: $color_10;
+// 	padding-left: 10px;
+// 	padding-top: 10px;
+// }
+// .filterWrapper {
+// 	margin-left: 20px;
+// 	padding-top: 20px;
+// 	padding-bottom: 20px;
+// 	border-bottom: 1px solid #e4e4e4;
+// }
+// .filterWrapperNoBorder {
+// 	margin-left: 20px;
+// 	padding-top: 20px;
+// 	padding-bottom: 20px;
+// }
+// .filterContentKey {
+// 	padding-bottom: 10px;
+// 	>span {
+// 		color: $color_5;
+// 		font-size: 16px;
+// 	}
+// }
+// .scrollWrapper {
+// 	height: 72vh;
+// 	overflow-y: scroll;
+// }
+// @media (min-width:768px) and (max-width:1024px) {
+// 	.searchContainerFull {
+// 		width: 100% !important;
+// 	}
+// }
+// @media screen and (max-width:600px) {
+// 	// .courseName {
+// 	// 	font-size: 30px;
+// 	// }
+// 	.resultCount {
+// 		font-size: 20px;
+// 	}
+// }
+// @media screen and (max-width:992px) {
+// 	// .searchHeader {
+// 	// 	margin-top: 20px;
+// 	// }
+// 	// .searchSort {
+// 	// 	width: auto;
+// 	// }
+// }

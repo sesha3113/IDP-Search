@@ -1,0 +1,51 @@
+{
+  "name": "idpsearch",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^6.4.0",
+    "@next/eslint-plugin-next": "^13.2.4",
+    "@next/font": "13.1.6",
+    "@sls-next/aws-cloudfront": "^3.7.0",
+    "@sls-next/aws-lambda": "3.6.0",
+    "@sls-next/aws-sqs": "^3.7.0",
+    "@sls-next/domain": "^3.7.0",
+    "@sls-next/serverless-component": "^3.6.0",
+    "aws-amplify": "^5.0.22",
+    "aws-sdk": "^2.1343.0",
+    "bootstrap": "^5.2.3",
+    "cookie": "^0.5.0",
+    "crypto-js": "^4.1.1",
+    "js-cookie": "^3.0.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "next": "12.2.2",
+    "next-redux-wrapper": "^8.1.0",
+    "perf_hooks": "^0.0.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.8",
+    "react-icons": "^4.7.1",
+    "react-multi-carousel": "^2.8.2",
+    "react-redux": "^8.0.5",
+    "react-select": "^5.7.0",
+    "redux": "^4.2.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "2.72.1",
+    "constructs": "10.1.156",
+    "eslint": "^8.37.0",
+    "eslint-plugin-react": "^7.32.2",
+    "sass": "^1.62.0",
+    "serverless-domain-manager": "^7.0.2",
+    "sst": "^2.8.20"
+  }
+}

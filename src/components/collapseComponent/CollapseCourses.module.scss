@@ -1,0 +1,64 @@
+@import "../../assets/styles//colours.scss";
+@import "../../assets/styles/mixins";
+
+.collapseMain {
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+	.collapseBody{
+		padding-top: 40px;
+		border-bottom: 1px solid #d8d2d2;
+		width: 100%;
+		padding-bottom: 20px;
+		.collapseHeader {
+			&:hover {
+				color: $thick_green;
+			}
+			height: 60px;
+			.collapseTitle {
+				&:hover {
+					color: $thick_green;
+				}
+				color: $light_gray_3;
+				font-size: 28px;
+				font-weight: 700;
+				@include sm {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+
+
+// .collapseHeader {
+// 	&:hover {
+// 		color: $thick_green;
+// 	}
+// 	height: 60px;
+// }
+// .collapseTitle {
+// 	&:hover {
+// 		color: $thick_green;
+// 	}
+// 	color: $light_gray_3;
+// 	font-size: 28px;
+// 	font-weight: 700;
+// }
+// .collapseBody {
+// 	padding-top: 40px;
+// 	border-bottom: 1px solid #d8d2d2;
+// 	width: 100%;
+// 	padding-bottom: 20px;
+// }
+// .collapseMain {
+// 	display: grid;
+// 	place-items: center;
+// 	cursor: pointer;
+// }
+// @media screen and (max-width:600px) {
+// 	.collapseTitle {
+// 		font-size: 18px;
+// 	}
+// }

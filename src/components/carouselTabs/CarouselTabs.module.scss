@@ -1,0 +1,35 @@
+@import "../../assets/styles/mixins";
+
+.carouselItem {
+		min-height: 550px;
+	.zIndex {
+	   z-index: -1;
+    }
+   @include sm {
+	  min-height: 250px;
+   }
+   @include md {
+	  min-height: 300px;
+   }
+}
+
+
+
+
+
+// .carouselItem {
+// 	min-height: 550px;
+// }
+// .zIndex {
+// 	z-index: -1;
+// }
+// @media screen and (max-width:600px) {
+// 	.carouselItem {
+// 		min-height: 250px;
+// 	}
+// }
+// @media screen and (min-width:601px) and (max-width:1200px) {
+// 	.carouselItem {
+// 		min-height: 300px;
+// 	}
+// }

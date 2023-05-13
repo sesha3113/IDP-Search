@@ -1,0 +1,27 @@
+@import "../../assets/styles/colours.scss";
+@import "../../assets/styles/mixins";
+
+.studentStories {
+	min-height: 300px;
+	padding: 20px;
+	.storiesCol {
+		padding-bottom: 15px;
+		@include sm {
+			text-align: center;
+		}
+	}
+	.storiesFooter {
+		font-size: 18px;
+		color: $blue_3;
+		font-weight: 500;
+		text-align: end;
+		cursor: pointer;
+	}
+}
+
+
+// @media screen and (max-width:600px) {
+// 	.storiesCol {
+// 		text-align: center;
+// 	}
+// }

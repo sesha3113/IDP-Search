@@ -1,0 +1,67 @@
+@import "../../assets/styles/colours.scss";
+@import "../../assets/styles//mixins";
+
+
+.studentPlaces {
+	padding-top: 40px;
+	.studentPlacesItem {
+		min-height: 300px;
+		.studentPlacesRow {
+			--bs-gutter-x: 0px !important;
+			padding: 0 20px;
+			.studentPlacesCol {
+				text-align: center;
+				position: relative;
+				.student_container {
+					position: relative;
+					display: inline-block;
+					.studentPlacesImglabel {
+						font-weight: 500;
+						color: $white_color;
+						font-size: 22px;
+						position: absolute;
+						top: 75%;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						@include md {
+							font-size: 18px;
+						}
+					}
+					@include md {
+						padding: 8px;
+					}
+				}
+			}
+			.studentPlacesColHover {
+				&:hover {
+					cursor: pointer;
+				}
+			}
+		}
+		@include md {
+			min-height: 100%;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+// @media screen and (min-width:601px) and (max-width:1200px) {
+// 	.student_container {
+// 		padding: 8px;
+// 	}
+// 	.studentPlacesItem {
+// 		min-height: 100%;
+// 	}
+// 	.studentPlacesImglabel {
+// 		font-size: 18px;
+// 	}
+// }

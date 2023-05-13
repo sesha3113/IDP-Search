@@ -1,0 +1,96 @@
+@import "../../assets/styles/colours.scss";
+
+.form {
+	padding-top: 20px;
+	font-family: $font_form_family;
+	color: $light_gray_10;
+	h2 {
+		text-align: center;
+		font-size: 20px;
+		color: $blue_3;
+		font-size: 32px;
+	}
+	p {
+		text-align: center;
+		font-size: 20px;
+	}
+	.formRow {
+		--bs-gutter-x: 0px !important;
+		height: fit-content;
+		.formCol {
+			background-color: $color_white2;
+			.imageWrapper {
+				overflow: hidden;
+				position: relative;
+				width: 100%;
+				height: 100%;
+				img {
+					object-fit: cover;
+				}
+			}
+		}
+		.formCol1 {
+			background-color: $color_white2;
+			padding: 25px;
+		}
+	}
+}
+
+
+.removeGutterx {
+	--bs-gutter-x: 0px !important;
+}
+.paddingTop15 {
+	padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+// .formRow {
+// 	--bs-gutter-x: 0px !important;
+// 	height: fit-content;
+// }
+// .removeGutterx {
+// 	--bs-gutter-x: 0px !important;
+// }
+// .formCol {
+// 	background-color: $color_white2;
+// }
+// .formCol1 {
+// 	background-color: $color_white2;
+// 	padding: 25px;
+// }
+// .imageWrapper {
+// 	overflow: hidden;
+// 	position: relative;
+// 	width: 100%;
+// 	height: 100%;
+// 	img {
+// 		object-fit: cover;
+// 	}
+// }
+// .form {
+// 	padding-top: 20px;
+// 	font-family: $font_form_family;
+// 	color: $light_gray_10;
+// 	h2 {
+// 		text-align: center;
+// 		font-size: 20px;
+// 		color: $blue_3;
+// 		font-size: 32px;
+// 	}
+// 	p {
+// 		text-align: center;
+// 		font-size: 20px;
+// 	}
+// }
+// .paddingTop15 {
+// 	padding-top: 15px;
+// }

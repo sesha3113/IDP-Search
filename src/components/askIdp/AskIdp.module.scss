@@ -1,0 +1,99 @@
+@import "../../assets/styles/colours.scss";
+
+.askIdpMain {
+	padding: 20px 20px 20px 40px;
+	.askIdpCarousel {
+		text-align: center;
+		.askIdpItem {
+			height: 359px;
+			width: 201px;
+			background-color: $bg_color_white;
+			border-radius: 15px;
+			margin: auto;
+			.imageCard {
+				border-radius: 15px;
+				border: none;
+				.askIdpItemImage {
+					overflow: hidden;
+					border-radius: 15px;
+				}
+				.cardTitle {
+					height: 250px;
+					display: grid;
+					place-items: center;
+					.playBtn {
+						color: $color_white2;
+						opacity: .3;
+						margin-top: 60px;
+						cursor: pointer;
+					}
+					.playBtnHover {
+						&:hover {
+							opacity: .6;
+						}
+					}
+				}
+				.cardText {
+					font-size: 12px;
+					font-weight: 700;
+					opacity: .7;
+					background-color: $color_white2;
+					border-radius: 5px;
+				}
+				
+			}
+			
+		}
+	}
+}
+
+
+
+
+
+// .askIdpMain {
+// 	padding: 20px 20px 20px 40px;
+// }
+// .askIdpCarousel {
+// 	text-align: center;
+// }
+// .playBtn {
+// 	color: $color_white2;
+// 	opacity: .3;
+// 	margin-top: 60px;
+// 	cursor: pointer;
+// }
+// .playBtnHover {
+// 	&:hover {
+// 		opacity: .6;
+// 	}
+// }
+// .askIdpItem {
+// 	height: 359px;
+// 	width: 201px;
+// 	background-color: $bg_color_white;
+// 	border-radius: 15px;
+// 	margin: auto;
+// }
+// .askIdpItemImage {
+// 	overflow: hidden;
+// 	border-radius: 15px;
+// }
+// .imageCard {
+// 	border-radius: 15px;
+// 	border: none;
+// }
+// .cardTitle {
+// 	height: 250px;
+// 	display: grid;
+// 	place-items: center;
+// }
+// .cardText {
+// 	font-size: 12px;
+// 	font-weight: 700;
+// 	opacity: .7;
+// 	background-color: $color_white2;
+// 	border-radius: 5px;
+// }
+
+

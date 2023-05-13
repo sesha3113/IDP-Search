@@ -1,0 +1,81 @@
+@import "../../assets/styles/colours.scss";
+@import "../../assets/styles/mixins";
+.studentSaysMain {
+	.studentSaysRow {
+		--bs-gutter-x: 0px !important;
+		.studentSaysCol {
+			text-align: center;
+			padding: 20px;
+			border: 1px solid #f2ebeb;
+			margin-bottom: 10px;
+			.reviews {
+				font-size: 18px;
+			}
+			.reviewScore {
+				font-size: 25px;
+				color: $light_blue_3;
+				@include sm {
+					display: block;
+				}
+			}
+			.studentsSaysHead {
+				color: $light_blue_3;
+				font-size: 18px;
+			}
+			.studentSaysContent {
+				color: $light_gray_8;
+				font-size: 13px;
+			}
+			.studentSaysFooter {
+				color: $light_gray_9;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+
+
+// .studentSaysCol {
+// 	text-align: center;
+// 	padding: 20px;
+// 	border: 1px solid #f2ebeb;
+// 	margin-bottom: 10px;
+// }
+// .studentSaysRow {
+// 	--bs-gutter-x: 0px !important;
+// }
+// .reviews {
+// 	font-size: 18px;
+// }
+// .reviewScore {
+// 	font-size: 25px;
+// 	color: $light_blue_3;
+// // }
+// .reviewsBtn {
+// 	color: $color_2;
+// 	font-weight: 500;
+// }
+// .reviewsBtnHover {
+// 	&:hover {
+// 		color: $color_2;
+// 		opacity: .8;
+// 	}
+// }
+// .studentsSaysHead {
+// 	color: $light_blue_3;
+// 	font-size: 18px;
+// }
+// .studentSaysContent {
+// 	color: $light_gray_8;
+// 	font-size: 13px;
+// }
+// .studentSaysFooter {
+// 	color: $light_gray_9;
+// 	font-size: 14px;
+// }
+// @media screen and (max-width:600px) {
+// 	.reviewScore {
+// 		display: block;
+// 	}
+// }

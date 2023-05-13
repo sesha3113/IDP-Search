@@ -1,0 +1,70 @@
+@import "../../assets/styles/colours.scss";
+
+.coursesMain {
+	padding: 20px 40px;
+	.coursesRow {
+		text-align: center;
+		color: $light_gray_11;
+		margin-top: 30px;
+		.coursesCol {
+			transition: .6s;
+			padding: 20px;
+			min-height: 250px;
+			.coursesTitle {
+				font-weight: 500;
+				margin-top: 20px;
+				font-size: 24px;
+			}
+		}
+		.coursesColHover {
+			&:hover {
+				box-shadow: 2px 5px 5px 2px #c0bebe;
+				transition: .6s;
+				cursor: pointer;
+			}
+		}
+		.coursesFooter {
+			font-size: 18px;
+			color: $blue_3;
+			font-weight: 500;
+			text-align: end;
+			cursor: pointer;
+			padding-top: 20px;
+		}
+	}
+}
+
+
+// .coursesMain {
+// 	padding: 20px 40px;
+// }
+// .coursesRow {
+// 	text-align: center;
+// 	color: $light_gray_11;
+// 	margin-top: 30px;
+// }
+// .coursesCol {
+// 	transition: .6s;
+// 	padding: 20px;
+// 	min-height: 250px;
+// }
+// .coursesColHover {
+// 	&:hover {
+// 		box-shadow: 2px 5px 5px 2px #c0bebe;
+// 		transition: .6s;
+// 		cursor: pointer;
+// 	}
+// }
+// .coursesTitle {
+// 	font-weight: 500;
+// 	margin-top: 20px;
+// 	font-size: 24px;
+// }
+// .coursesFooter {
+// 	font-size: 18px;
+// 	color: $blue_3;
+// 	font-weight: 500;
+// 	text-align: end;
+// 	cursor: pointer;
+// 	padding-top: 20px;
+// }

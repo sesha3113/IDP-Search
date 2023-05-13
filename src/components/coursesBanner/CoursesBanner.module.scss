@@ -1,0 +1,322 @@
+@import "../../assets/styles/colours.scss";
+@import "../../assets//styles//mixins";
+
+
+.bannermain {
+	--bs-card-border-radius: 0px !important;
+	height: 470px;
+	overflow: hidden;
+	.overlayColor {
+		background-color: $bg_rgb2;
+		.cardBody {
+			padding-top: 30px;
+			padding-left: 20px;
+			color: $white_color;
+			font-size: 15px;
+			font-weight: 100;
+			.breadcrumbLinks {
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+		.bannerCol1 {
+			padding-top: 70px;
+			.bannerImg {
+				width: 120px;
+				margin-left: 30px;
+				padding: 10px;
+				background-color: $white_color;
+				border-radius: 7px;
+				@include sm {
+					width: 30%;
+					margin-left: 0;
+					padding: 10px;
+					background-color: $white_color;
+					border-radius: 7px;
+				}
+			}
+			@include sm {
+				padding-top: 70px;
+			}
+		}
+		.bannerCol2 {
+			padding-top: 70px;
+			margin-left: -20px;
+			.banner2Title {
+				font-size: 45px;
+				@include sm {
+					font-size: 26px;
+				}
+				@include md {
+					font-size: 25px;
+				}
+			}
+			.banner2Text {
+				font-size: 30px;
+				@include sm {
+					font-size: 26px;
+				}
+			}
+			.heart {
+				&:hover {
+					color: $orange;
+				}
+			}
+			.shareBtn {
+				color: $white_color;
+				background-color: $bg_transparent;
+				border: none;
+				padding: 5px 10px;
+				border-radius: 5px;
+				&:hover {
+					background-color: $bg_rgb1;
+				}
+			}
+			@include sm {
+				padding-top: 20px;
+				margin-left: 0;
+			}
+			@include lg {
+				padding-top: 70px;
+				margin-left: 0;
+			}
+		}
+		.banner3Text {
+			padding-top: 120px;
+			margin-left: -10px;
+			.idpbutton {
+				background: linear-gradient(90deg,#388062 0,#73b757 100%) no-repeat padding-box;
+				border: none !important;
+				&:hover {
+					background: #388062 !important;
+				}
+			}
+			.bannerButton {
+				font-size: 16px;
+				font-weight: 500;
+				padding: 10px 30px;
+				@include sm {
+					width: 100%;
+				}
+			}
+			@include sm {
+				padding-top: 20px;
+		        margin-left: 0;
+			}
+		}
+		
+	}
+
+	@include sm {
+		--bs-card-border-radius: 0px !important;
+		height: 660px;
+		overflow: auto;
+	}
+	@include md {
+		--bs-card-border-radius: 0px !important;
+		height: 500px;
+		overflow: auto;
+	}
+	
+}
+.coursesBannerMain {
+	display: grid;
+	place-items: center;
+	margin-top: -50px;
+	.coursesBannerRow {
+		--bs-gutter-x: 0px !important;
+		width: 100%;
+		background-color: $white_color;
+		box-shadow: 1px 3px 3px 1px rgba(192,190,190,.5);
+		padding: 40px 25px 40px 40px;
+		border-radius: 20px;
+		z-index: 99;
+		position: relative;
+		.coursesBannerCol {
+			text-align: start;
+			>h4 {
+				padding-top: 10px;
+				cursor: pointer;
+				&:hover {
+					text-decoration: underline;
+					color: $blue;
+				}
+			}
+			>p {
+				font-size: 18px;
+				font-weight: 200;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .idpbutton {
+// 	background: linear-gradient(90deg,#388062 0,#73b757 100%) no-repeat padding-box;
+// 	border: none !important;
+// 	&:hover {
+// 		background: #388062 !important;
+// 	}
+// }
+// .coursesBannerCol {
+// 	text-align: start;
+// 	>h4 {
+// 		padding-top: 10px;
+// 		cursor: pointer;
+// 		&:hover {
+// 			text-decoration: underline;
+// 			color: $color_1;
+// 		}
+// 	}
+// 	>p {
+// 		font-size: 18px;
+// 		font-weight: 200;
+// 	}
+// }
+// .coursesBannerRow {
+// 	--bs-gutter-x: 0px !important;
+// 	width: 100%;
+// 	background-color: $background-color_1;
+// 	box-shadow: 1px 3px 3px 1px rgba(192,190,190,.5);
+// 	padding: 40px 25px 40px 40px;
+// 	border-radius: 20px;
+// 	z-index: 99;
+// 	position: relative;
+// }
+// .coursesBannerMain {
+// 	display: grid;
+// 	place-items: center;
+// 	margin-top: -50px;
+// }
+// .bannermain {
+// 	--bs-card-border-radius: 0px !important;
+// 	height: 470px;
+// 	overflow: hidden;
+// }
+// .breadcrumbLinks {
+// 	cursor: pointer;
+// 	&:hover {
+// 		text-decoration: underline;
+// 	}
+// }
+// .shareBtn {
+// 	color: $color_2;
+// 	background-color: $background-color_2;
+// 	border: none;
+// 	padding: 5px 10px;
+// 	border-radius: 5px;
+// 	&:hover {
+// 		background-color: $background-color_3;
+// 	}
+// }
+// .heart {
+// 	&:hover {
+// 		color: $color_3;
+// 	}
+// }
+// .overlayColor {
+// 	background-color: $background-color_4;
+// }
+// .cardBody {
+// 	padding-top: 30px;
+// 	padding-left: 20px;
+// 	color: $color_2;
+// 	font-size: 15px;
+// 	font-weight: 100;
+// }
+// .bannerCol1 {
+// 	padding-top: 70px;
+// }
+// .bannerImg {
+// 	width: 120px;
+// 	margin-left: 30px;
+// 	padding: 10px;
+// 	background-color: $background-color_1;
+// 	border-radius: 7px;
+// }
+// .bannerCol2 {
+// 	padding-top: 70px;
+// 	margin-left: -20px;
+// }
+// .banner2Title {
+// 	font-size: 45px;
+// }
+// .banner2Text {
+// 	font-size: 30px;
+// }
+// .banner3Text {
+// 	padding-top: 120px;
+// 	margin-left: -10px;
+// }
+// .bannerButton {
+// 	font-size: 16px;
+// 	font-weight: 500;
+// 	padding: 10px 30px;
+// }
+// @media screen and (max-width:600px) {
+// 	.bannermain {
+// 		--bs-card-border-radius: 0px !important;
+// 		height: 660px;
+// 		overflow: auto;
+// 	}
+// 	.bannerImg {
+// 		width: 30%;
+// 		margin-left: 0;
+// 		padding: 10px;
+// 		background-color: $background-color_1;
+// 		border-radius: 7px;
+// 	}
+// 	.banner2Text {
+// 		font-size: 26px;
+// 	}
+// 	.banner2Title {
+// 		font-size: 26px;
+// 	}
+// 	.banner3Text {
+// 		padding-top: 20px;
+// 		margin-left: 0;
+// 	}
+// 	.bannerCol2 {
+// 		padding-top: 20px;
+// 		margin-left: 0;
+// 	}
+// 	.bannerButton {
+// 		width: 100%;
+// 	}
+// 	.bannerCol1 {
+// 		padding-top: 70px;
+// 	}
+// }
+// @media screen and (min-width:601px) and (max-width:991px) {
+// 	.bannermain {
+// 		--bs-card-border-radius: 0px !important;
+// 		height: 500px;
+// 		overflow: auto;
+// 	}
+// 	.banner2Title {
+// 		font-size: 25px;
+// 	}
+// }
+// @media screen and (min-width:992px) and (max-width:1200px) {
+// 	.bannerCol2 {
+// 		padding-top: 70px;
+// 		margin-left: 0;
+// 	}
+// }
